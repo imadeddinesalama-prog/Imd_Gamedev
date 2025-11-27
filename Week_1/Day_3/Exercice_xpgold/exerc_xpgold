@@ -1,0 +1,108 @@
+//exercice 1 Birthday
+
+var birthdays = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+{
+    { "Sami", "1990/05/12" },
+    { "Asmaa", "1985/11/03" },
+    { "Moahammed", "1992/07/21" },
+    { "Omar", "1979/02/14" },
+    { "Samira", "2000/09/30" }
+};
+
+Console.WriteLine(" You can look up birthdays by name.");
+Console.Write("Enter a person's name: ");
+var input = Console.ReadLine()?.Trim();
+
+if (string.IsNullOrEmpty(input))
+{
+    Console.WriteLine("No name entered. Exiting.");
+    return;
+}
+
+if (birthdays.TryGetValue(input, out var birthday))
+{
+    Console.WriteLine($"{input}'s birthday is {birthday}.");
+}
+else
+{
+
+}
+
+//exercice 2 Advanced Birthday
+
+var birthdaysAdv = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+{
+    { "Sami", "1990/05/12" },
+    { "Asmaa", "1985/11/03" },
+    { "Moahammed", "1992/07/21" },
+    { "Omar", "1979/02/14" },
+    { "Samira", "2000/09/30" }
+};
+Console.WriteLine(" Give me a name : ");
+string name = Console.ReadLine()!;
+if (birthdaysAdv.ContainsKey(name))
+{
+    Console.WriteLine(name + "'s birthday is " + birthdaysAdv[name]);
+}
+else
+{
+    Console.WriteLine("Sorry, we dont have the birthday information for " + name);
+}
+
+//exercice 3 sum sequence
+
+Console.WriteLine("Enter a number:");
+int x = int.Parse(Console.ReadLine()!);
+int sum = 0;
+string temp = "";
+
+for (int i = 0; i < 4; i++)
+{
+    temp += x.ToString();      
+    sum += int.Parse(temp);    
+}
+
+Console.WriteLine(sum);
+
+//exercice 4 Double Dice 
+
+var rnd = new Random();
+
+int ThrowDice()
+{
+    return rnd.Next(1, 7); // 1..6
+}
+
+int ThrowUntilDoubles()
+{
+    int rolls = 0;
+    while (true)
+    {
+        rolls++;
+        var d1 = ThrowDice();
+        var d2 = ThrowDice();
+        if (d1 == d2) break;
+    }
+    return rolls;
+}
+
+void MainSimulation()
+{
+    const int iterations = 100;
+    var results = new List<int>(iterations);
+
+    for (int i = 0; i < iterations; i++)
+    {
+        results.Add(ThrowUntilDoubles());
+    }
+
+    int totalThrows = results.Sum();
+    double average = Math.Round(results.Average(), 2);
+
+    Console.WriteLine($"Performed {iterations} simulations of two-dice rolls until doubles.");
+    Console.WriteLine($"Total number of rolls (each roll = both dice rolled once): {totalThrows}");
+    Console.WriteLine($"Average number of rolls to reach doubles: {average:F2}");
+}
+
+MainSimulation();
+
