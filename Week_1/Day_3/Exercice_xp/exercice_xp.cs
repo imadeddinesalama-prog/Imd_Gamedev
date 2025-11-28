@@ -52,7 +52,7 @@ public class HelloWorld
     }
 }
 
-//exercice 3 (needs a fix)
+//exercice 3 
 
 var brand = new Dictionary<string, object>
 {

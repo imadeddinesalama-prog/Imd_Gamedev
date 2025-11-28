@@ -1,0 +1,5 @@
+Console.WriteLine("write me a name :");
+string name = Console.ReadLine();
+var name = new Dictionary<string, string>()
+{
+    {"
