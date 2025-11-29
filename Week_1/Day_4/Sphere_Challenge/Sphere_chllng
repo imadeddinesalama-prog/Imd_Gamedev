@@ -1,0 +1,130 @@
+using System;
+using System.Collections.Generic;
+
+public class Sphere
+{
+    private double radius;
+
+    public double Radius
+    {
+        get { return radius; }
+        set { radius = value; }
+    }
+
+    public double Diameter
+    {
+        get { return radius * 2; }
+        set { radius = value / 2; }
+    }
+
+    public Sphere(double radius)
+    {
+        this.radius = radius;
+    }
+    public double Volume
+    {
+        get { return (4.0 / 3.0) * Math.PI * Math.Pow(radius, 3); }
+    }
+
+    public double SurfaceArea
+    {
+        get { return 4 * Math.PI * Math.Pow(radius, 2); }
+    }
+    public override string ToString()
+    {
+        return $"Sphere [Radius: {radius:F2}, Diameter: {Diameter:F2}, " +
+               $"Volume: {Volume:F2}, Surface Area: {SurfaceArea:F2}]";
+    }
+
+    public static Sphere operator +(Sphere s1, Sphere s2)
+    {
+        return new Sphere(s1.Radius + s2.Radius);
+    }
+    public static bool operator >(Sphere s1, Sphere s2)
+    {
+        return s1.Volume > s2.Volume;
+    }
+
+    public static bool operator <(Sphere s1, Sphere s2)
+    {
+        return s1.Volume < s2.Volume;
+    }
+
+    public static bool operator ==(Sphere s1, Sphere s2)
+    {
+        if (ReferenceEquals(s1, null) && ReferenceEquals(s2, null))
+            return true;
+        if (ReferenceEquals(s1, null) || ReferenceEquals(s2, null))
+            return false;
+        return Math.Abs(s1.Radius - s2.Radius) < 0.0001;
+    }
+
+    public static bool operator !=(Sphere s1, Sphere s2)
+    {
+        return !(s1 == s2);
+    }
+
+    public override bool Equals(object obj)
+    {
+        if (obj is Sphere sphere)
+            return this == sphere;
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return radius.GetHashCode();
+    }
+}
+
+public class SphereComparer : IComparer<Sphere>
+{
+    private string _sortBy;
+
+    public SphereComparer(string sortBy = "radius")
+    {
+        _sortBy = sortBy.ToLower();
+    }
+
+    public int Compare(Sphere x, Sphere y)
+    {
+        if (_sortBy == "volume")
+            return x.Volume.CompareTo(y.Volume);
+        else 
+            return x.Radius.CompareTo(y.Radius);
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Sphere s1 = new Sphere(5);
+        Sphere s2 = new Sphere(3);
+        Console.WriteLine("Sphere 1: " + s1);
+        Console.WriteLine("Sphere 2: " + s2);
+        Sphere s3 = new Sphere(10);
+        s3.Diameter = 20; 
+        Console.WriteLine("\nSphere 3 (set via diameter): " + s3);
+        Sphere s4 = s1 + s2;
+        Console.WriteLine("\nS1 + S2 = " + s4);
+        Console.WriteLine($"\nS1 > S2: {s1 > s2}");
+        Console.WriteLine($"S1 < S2: {s1 < s2}");
+        Console.WriteLine($"S1 == S3: {s1 == s3}");
+
+        List<Sphere> spheres = new List<Sphere> { s1, s2, s3, s4 };
+
+        Console.WriteLine("\nOriginal list:");
+        foreach (var sphere in spheres)
+            Console.WriteLine(sphere);
+
+        spheres.Sort(new SphereComparer("radius"));
+        Console.WriteLine("\nSorted by radius:");
+        foreach (var sphere in spheres)
+            Console.WriteLine(sphere);
+
+        spheres.Sort(new SphereComparer("volume"));
+        Console.WriteLine("\nSorted by volume:");
+        foreach (var sphere in spheres)
+            Console.WriteLine(sphere);
+    }
+}
