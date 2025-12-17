@@ -1,0 +1,8 @@
+In The Elder Scrolls V: Skyrim, players discovered they could steal items by placing a wooden bucket over a shopkeeper’s head.
+
+What happened : 
+ - The player puts a bucket on an NPC.
+
+ - The NPC is "blinded" even though they are standing right there.
+
+ - The player steals everything in the room without penalty.

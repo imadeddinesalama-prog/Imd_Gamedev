@@ -1,0 +1,9 @@
+In Monster Hunter, the Combat and Crafting systems rely on each other to function.
+
+- Combat feeds Crafting : Players must defeat monsters to "harvest" unique body parts like scales and horns.
+
+- Crafting feeds Combat: These parts are the only way to forge stronger weapons and elemental armor.
+
+- The Connection: You cannot get better gear without fighting, and you cannot fight tougher monsters without better gear.
+
+- The Result: This creates a constant cycle where the "economy" of the game is powered entirely by your success in battle.

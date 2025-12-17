@@ -1,0 +1,3 @@
+The idea is to link the player’s power directly to the hostility of the environment. As the player’s level or gear score increases, a "Threat Level" variable rises in tandem. This triggers a balancing loop where enemies gain higher health,smarter AI 
+
+By increasing the drain on the player's resources (health, mana, or time) as they get stronger, the game forces the player to exert more effort to achieve the same results, effectively pulling their "overpowered" status back toward a challenging equilibrium.

@@ -1,0 +1,4 @@
+- Iron ore to Iron ingots
+- herbs to potions
+- hides to leather
+- mushrooms to poison 

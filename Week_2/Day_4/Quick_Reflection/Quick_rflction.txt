@@ -1,0 +1,7 @@
+Restaurant Kitchen Feedback Loops
+
+Negative Feedback Loop (Quality Control): A chef tastes a dish before it leaves the kitchen (output of the system) and discovers that it is too salty: this feedback, or input signal from outside the system (along with the cook's experience), leads to an action—say adding acid or starch—to compensate for the error, which in turn diminishes deviations toward their original level.
+
+Positive Feedback Loop (High Demand): If the kitchen suddenly gets a rush of orders (the input is high demand), the head chef may shout more loudly, causing even more sense of urgency and stress (result system output) so doubled up, this time that will make those cooks to hurry putting . 
+
+Negative Feedback Loop (Inventory Management): When a cook observes that they are running low on a crucial ingredient, such as butter (the deviation from the set inventory level), they immediately place an order with the prep cook or supplier (the corrective action), which stabilizes the inventory by bringing the stock of the ingredient back to the acceptable level.

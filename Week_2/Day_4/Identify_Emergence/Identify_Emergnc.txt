@@ -1,0 +1,3 @@
+In Gta IV : 
+The swing set launched cars because the game's physics system could not handle the extreme compression of the car hitting the metal structure. The computer's calculation for resolving the impossible overlap was to create a massive, instantaneous repulsive force—it was the game engine’s "panic button" for a glitch collision.
+

@@ -1,0 +1,5 @@
+In ( The Elder Scrolls V: Skyrim ) the skill-based leveling loop is a classic example of a reinforcing loop :
+
+As you perform a specific action—such as swinging a one-handed sword—your One-Handed skill increases. As that skill increases your attacks deal more damage allowing you to defeat enemies faster and take on tougher challenges. Successfully defeating these tougher enemies grants you even more skill experience and better loot further increasing your power. 
+
+So more you use a skill, the more powerful you become at it .
