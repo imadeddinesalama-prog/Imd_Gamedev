@@ -1,0 +1,41 @@
+this just exemples 
+
+
+Room 1 — Entry / Teaching Room
+
+Purpose: Teach the core mechanic (fire drains water energy).
+Design: Small safe space, one weak fire enemy, visible water pool.
+Checkpoint: At room entrance
+Why: Saves time after death and lets beginners retry without pressure.
+
+Room 2 — Hazard Test Room
+
+Purpose: Test water management and movement.
+Design: Fire jets on the floor, short gaps, limited water pickups.
+Checkpoint:  None
+Why: Short room; failure is quick and learning-focused.
+
+Room 3 — Combat Pressure Room
+
+Purpose: Combine combat + hazards.
+Design: Multiple enemies, spreading fire zones, one refill node.
+Checkpoint:  After clearing the room
+Why: Reduces frustration before the hardest encounter.
+
+Room 4 — Boss Room (Twist & Mastery)
+
+Purpose: Twist the mechanic and demand mastery.
+Design: Fire guardian that evaporates water, forcing smart ability use.
+Checkpoint: Right before the boss
+Why: Prevents replaying earlier rooms and respects player time.
+
+
+Design Intent Summary
+
+Early rooms teach safely
+
+Middle rooms test under pressure
+
+Final room masters + rewards
+
+Checkpoints are placed to reduce frustration, not difficulty

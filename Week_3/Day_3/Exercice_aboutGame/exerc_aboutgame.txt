@@ -1,0 +1,19 @@
+Player controls a water slime → explores and restores → a world burned by the Fire Nation
+
+Goal:
+Restore water sources and weaken Fire Nation control across the world.
+
+Rules:
+
+   - Water energy slowly drains in fire areas and must be replenished at water nodes.
+
+   - Skills are unlocked only by defeating area bosses and collecting skill shards.
+
+Feedback:
+When restoring a water source, the world shifts from red to blue with a calm flowing-water sound.
+
+
+Rule Change & Experience Impact : 
+
+Changed Rule: Water energy no longer drains over time, only when using skills.
+Impact: Exploration becomes calmer and more strategic, shifting tension from survival to skill management and planning.

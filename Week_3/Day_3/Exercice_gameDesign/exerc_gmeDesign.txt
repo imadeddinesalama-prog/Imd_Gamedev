@@ -1,0 +1,37 @@
+Goal:
+Restore balance to a fire-ruled world by saving water sources and defeating Fire Nation outposts
+
+Rules:
+Defeat enemies, collect skill shards, and manage limited water energy to survive each area
+
+Core Loop:
+Explore → Fight enemies & boss → Gain shards/skills → Unlock new paths → Repeat
+
+Feedback : 
+Action: Collecting a skill shard
+Feedback: A short water splash sound + blue glow pulse around the character
+
+
+
+SCAMPER of Skyrim
+
+S >> Substitute
+Substitute traditional weapons with elemental powers or skills (magic-first combat instead of sword-focused builds)
+
+C >> Combine
+Combine open-world exploration + narrative quests + character progression into a single continuous experience with no level walls
+
+A >> Adapt
+Adapt the dragon threat into roaming world bosses that dynamically change regions and encounters
+
+M >> Modify
+Modify large regions into themed zones with stronger identity (snow, fire, ruins), each with unique mechanics
+
+P >> Put to another use
+Use shouts not just for combat, but for puzzles, traversal, and social interactions
+
+E >> Eliminate
+Eliminate quest clutter and excessive item management; focus on meaningful choices and skills
+
+R >> Reverse
+Reverse the power fantasy: instead of being the chosen hero early, the world treats you as fragile until you earn recognition

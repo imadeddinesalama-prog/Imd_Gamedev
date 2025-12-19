@@ -1,0 +1,16 @@
+Accessibility Features
+
+1- Colorblind-Friendly Indicators
+
+* Where: Fire zones and water sources use distinct shapes and patterns in addition to color (e.g., stripes on fire, ripple pattern on water).
+
+2- Adjustable Text Size for Prompts
+
+* Where: Dialogue boxes, tutorial hints, and skill descriptions can be resized in the settings menu.
+
+
+In-Game Prompt 
+
+"Your water energy is low! Find a nearby spring to refill before entering the fire zone."
+
+This prompt appears just before the player enters a high-damage fire area, giving beginners a clear warning without breaking immersion.

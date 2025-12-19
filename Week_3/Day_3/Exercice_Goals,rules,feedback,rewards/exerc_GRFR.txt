@@ -1,0 +1,24 @@
+Goal : 
+
+Save the other nations from Fire Nation control and take revenge for the destruction of the water world.
+
+Rules : 
+
+1- Each nation is protected by Fire Nation outposts that must be cleared to free it.
+
+2 - Water energy is limited and must be restored by saving villages or sacred springs.
+
+
+Feedback : 
+
+- Success Feedback:
+Chains of fire shatter, the nation’s colors return, and a powerful water surge sound plays.
+
+- Failure Feedback:
+The screen heats up with red distortion, the slime steams, and a sharp burn sound is heard.
+
+
+Cosmetic Reward 
+
+Reward: Nation Marks
+After saving a nation, a glowing symbol appears inside the slime, changing its color accents and ripple effects—purely cosmetic, a badge of revenge and victory.

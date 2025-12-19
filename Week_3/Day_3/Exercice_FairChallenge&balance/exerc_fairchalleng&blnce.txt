@@ -1,0 +1,27 @@
+This is just an exemple (will not be implemented) 
+
+
+fairness Tool
+
+Adaptive Water Refill
+If the player fails multiple times in the same area, nearby water droplets spawn more often.
+
+How it helps beginners:
+It reduces frustration without removing challenge, letting new players recover and learn instead of getting stuck.
+
+
+Tuning Knobs
+
+1- Water Drain Rate
+Lower drain = calmer exploration; higher drain = more tension and urgency.
+
+2- Enemy Fire Damage
+Lower damage helps beginners survive longer; higher damage rewards mastery and careful play.
+
+If you want, I can next:
+
+- Define difficulty modes using knobs
+
+- Create a beginner-friendly onboarding flow
+
+- Turn this into a pitch-ready slide

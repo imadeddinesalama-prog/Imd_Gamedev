@@ -1,0 +1,18 @@
+Do explore hostile zones → Get skill shards & water energy → Unlock/Prepare new abilities or paths → Repeat
+
+
+4Step Progression (Teach / Test / Twist / Master)
+
+New Mechanic: Water Dash (fast movement through fire zones)
+
+Teach : 
+A safe area introduces Water Dash with no enemies and a clear visual trail to follow.
+
+Test : 
+Short fire corridors require using Water Dash to cross safely before water drains.
+
+Twist : 
+Enemies and moving fire walls force the player to dash with timing and positioning.
+
+Master : 
+A boss fight demands chaining Water Dash with attacks to avoid lethal fire waves and win.
