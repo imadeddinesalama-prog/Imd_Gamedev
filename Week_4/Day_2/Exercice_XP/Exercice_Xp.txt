@@ -1,0 +1,111 @@
+Question 1 
+
+1- The crash : 
+
+The crash was caused by a "perfect storm" of industry failures :
+
+- Market Saturation: Too many consoles and a flood of low-quality "shovelware" games.
+
+- Lack of Quality Control: Retailers were stuck with unplayable games, leading to a loss of consumer trust.
+
+- High-Profile Flops: The disastrous releases of E.T. and the poor port of Pac-Man for the Atari 2600.
+
+- PC Competition: Affordable home computers (like the Commodore 64) began outperforming consoles.
+
+2- The Revival : 
+
+Nintendo saved the industry by implementing the "Official Nintendo Seal of Quality," which guaranteed that every game met strict performance standards, effectively restoring faith in home gaming . ( Super Mario ) 
+
+
+Question 2 
+
+Golden Age of Arcades 
+
+ Pac man (1980) >>>>> Simple 2D sprites or vector lines >>>> P2P >>>> Primary Goal : High scores and "best score in leaderboard"
+
+Modern 3D & Online Era
+
+World of Warcraft (2004) >>>> Complex 3D polygons with high-def textures >>>> One-time purchase or monthly subscriptions >>>> Narrative completion and online ranking
+
+
+Question 3
+
+The Two Dominant Companies & Consoles :
+
+Nintendo: The Super Nintendo Entertainment System (SNES)
+
+Sega: The Sega Genesis 
+
+- the 2 pc Games : 
+      * DOOM (1993)
+      * Dune II (1992)
+
+
+Question 4 
+
+Metroidvania : Action adventure ( Hollow knight & Bloodstained ) 
+Jrpg : turn based RPG ( Final Fantasy & Dragon Quest ) 
+Real Time strategy : Strategy games ( Age of empire & Starcraft ) 
+
+Question 5
+
+The shift from "Like" to "Lite" is defined by one major change: permanent growth vs. starting from scratch 
+
+Traditional Roguelike : 
+
+- Permadeath: When you die, you lose everything.
+
+- Progression: Only your personal skill and knowledge improve. Every new game starts at the exact same power level.
+
+- The Experience: Hardcore and punishing; a "clean slate" every time.
+
+Modern Roguelite : 
+
+- Meta-Progression: When you die, you keep "Meta-Currency" (like Darkness or Gold) to buy permanent stat boosts.
+
+- Progression: Your character gets stronger over time. The game becomes mathematically easier the more you play.
+
+- The Experience: Addictive and rewarding; death is just a step toward becoming more powerful.
+
+Question 6 
+
+To be classified as a "Souls-like," a game must typically possess these two pillars of design:
+
+High-Stakes Combat & Death Mechanics:
+
+- Stamina-Based Combat: Actions (attacking, dodging, blocking) are tied to a limited stamina bar, requiring tactical patience rather than button-mashing.
+
+- The "Corpse Run": When a player dies, they lose their accumulated "currency" (Souls). They have exactly one chance to reach the spot where they died to reclaim it, if they die again before reaching it, that currency is lost forever.
+
+Question 7 
+
+The shift to 3D graphics enabled the open-world genre by removing the "flat" constraints of 2D sprites, allowing for true depth (the Z-axis) and 360-degree movement.
+
+How Technology Drove the Change:
+
+- Scale and Perspective: Hardware evolution allowed for Levels of Detail (LOD), where the game renders distant objects (like a skyscraper) as simple shapes, only adding detail as you get closer. This made it possible to create massive, seamless maps without constant loading screens.
+
+- Verticality: Unlike 2D games that were mostly left-to-right, 3D allowed players to climb, fly, and navigate urban environments with realistic height and scale.
+
+
+Grand Theft Auto III (2001) is the historical title that solidified this transition. It was the first true 3D open-world blockbuster that combined a fully-rendered city, vehicle hijacking, and the freedom to ignore the main story in favor of a "sandbox" experience. 
+
+
+Question 8 
+
+A new genre is created when a modding community uses a games "World Editor" to completely change the rules, winning conditions, and player perspective of the original game (Total Conversion)
+
+The MOBA Example:
+
+The Original Game: Warcraft III 
+
+The Mod: A custom map called Defense of the Ancients (Dota)
+
+
+Question 9 
+
+The most contrasting influences come from Tetris (1984) and Final Fantasy VII (1997), representing the split between "Abstract Skill" and "Cinematic Narrative."
+
+Tetris >>> Skill & Mechanics >>> Established "Casual Gaming" and the puzzle genre. It proved that a game needs no story or characters to be a global hit, focusing instead on pure, addictive "flow state" gameplay
+
+Final Fantasy VII >>> Narrative & Scale >>> Defined the "AAA Blockbuster." By using CD-ROM technology for cinematic cutscenes and a 40+ hour epic story, it proved games could rival Hollywood movies in emotional depth and production value.

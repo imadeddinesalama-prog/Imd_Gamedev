@@ -1,0 +1,40 @@
+Level 1
+
+The Legend of Zelda (1986) Answer: Action-Adventure 
+
+The rise of "LAN Parties" for multiplayer gaming was in 1990s (The 16-bit Era & the Rise of PC Gaming)
+
+
+Level 2
+
+Option A : 
+   The emergence of 3D graphics (and later 3D hardware like GPUs) fundamentally changed the FPS genre from "faked" depth to true spatial immersion.
+
+Impact on Evolution: Early "FPS" games like Wolfenstein 3D used ray-casting to create a 3D illusion on a 2D plane (you couldn't look up or down). True 3D allowed for verticality—players could finally explore multi-story buildings, jump across gaps, and aim along a Y-axis.
+
+
+Level 3 
+
+1- The major advancement that made these games possible was The 6th Generation Console Power & Broadband Internet.
+
+For GTA III : It relied on the increased processing power and DVD storage of the PlayStation 2. This allowed for "streaming" data off the disc in real-time, enabling a seamless 3D city without loading screens between streets.
+
+For World of Warcraft : It relied on the transition from dial-up to Broadband (High-Speed Internet). This allowed thousands of players to occupy the same server space with low latency, making massive raids and bustling cities technically feasible.
+
+
+
+2-World of Warcraft capitalized on the Rise of Social Networking & Persistent Online Identities.
+
+Before WoW, gaming was often a solitary or "session-based" experience (finish a round, then leave). WoW tapped into the trend of players wanting a "Second Life." It utilized the growing desire for Guilds and Digital Communities, where your reputation and social standing in the game world were just as important as your physical life.
+
+
+
+3- The Concept: A massive, persistent urban sandbox that merges the "crime spree" freedom of GTA III with the "role-based social structure" of WoW.
+
+Core Genre: MMOARPG (Massively Multiplayer Online Action-Role Playing Game).
+
+The Player Experience: Instead of playing as a lone protagonist, you enter a city with thousands of other players. You don't just "steal cars"; you choose a Class (The Driver, The Enforcer, The Hacker).
+
+The "WoW" Element: Players must form "Syndicates" (Guilds) to pull off complex, multi-stage heists that function like WoW raids.
+
+The "GTA" Element: The world is a "Living Sandbox." If a rival Syndicate takes over a territory, the actual map changes for everyone—shops pay protection money to those players, and the police presence increases in that district. It offers a player-driven economy and political system in a modern, gritty setting.
