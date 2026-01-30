@@ -1,0 +1,1 @@
+Test folder is the game folder
