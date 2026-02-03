@@ -23,10 +23,6 @@ if (birthdays.TryGetValue(input, out var birthday))
 {
     Console.WriteLine($"{input}'s birthday is {birthday}.");
 }
-else
-{
-
-}
 
 //exercice 2 Advanced Birthday
 
