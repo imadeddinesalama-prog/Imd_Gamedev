@@ -10,16 +10,23 @@ public class PlayerController : MonoBehaviour
     [Header("Jump")]
     public float jumpForce = 5f;
 
+    [Header("Combat")]
+    public AudioClip punchSound;
+    public float punchCooldown = 0.5f;
+    public PunchHitbox punchHitbox; 
+
     [Header("Footsteps")]
     public AudioClip[] footstepSounds;
     public float walkStepInterval = 0.4f;
-    public float runStepInterval = 0.25f; 
+    public float runStepInterval = 0.25f;
 
     private Animator animator;
     private Rigidbody rb;
     private AudioSource audioSource;
     private bool isGrounded = true;
     private float footstepTimer = 0f;
+    private float lastPunchTime = 0f;
+    private bool isPunching = false;
 
     void Start()
     {
@@ -36,19 +43,50 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        HandlePunch();
         HandleMovement();
         HandleJump();
     }
 
+    void HandlePunch()
+    {
+        if (Input.GetMouseButtonDown(0) && !isPunching)
+        {
+            if (Time.time - lastPunchTime >= punchCooldown)
+            {
+                animator.SetTrigger("Punch");
+                isPunching = true;
+                lastPunchTime = Time.time;
+
+                if (punchSound != null && audioSource != null)
+                {
+                    audioSource.PlayOneShot(punchSound);
+                }
+
+                if (punchHitbox != null)
+                {
+                    punchHitbox.ActivateHitbox();
+                }
+
+                Invoke("ResetPunch", 0.5f);
+            }
+        }
+    }
+
+    void ResetPunch()
+    {
+        isPunching = false;
+    }
+
     void HandleMovement()
     {
+        if (isPunching) return;
+
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
-        // Right click to run
         bool isRunning = Input.GetMouseButton(1);
 
-        // Get camera direction (ignore Y)
         Camera cam = Camera.main;
         Vector3 camForward = cam.transform.forward;
         Vector3 camRight = cam.transform.right;
@@ -60,7 +98,6 @@ public class PlayerController : MonoBehaviour
         Vector3 direction = (camForward * v + camRight * h);
         float speed = direction.magnitude;
 
-        // Only run if actually moving
         bool actuallyRunning = isRunning && speed > 0.1f;
 
         animator.SetFloat("Speed", speed);
@@ -72,10 +109,8 @@ public class PlayerController : MonoBehaviour
         {
             direction.Normalize();
 
-            // Move
             transform.Translate(direction * currentSpeed * Time.deltaTime, Space.World);
 
-            // Rotate to face movement direction
             Quaternion targetRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation,
                                                    targetRotation,
@@ -87,6 +122,8 @@ public class PlayerController : MonoBehaviour
 
     void HandleJump()
     {
+        if (isPunching) return;
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             animator.SetTrigger("Jump");
@@ -109,7 +146,6 @@ public class PlayerController : MonoBehaviour
                 AudioClip clip = footstepSounds[Random.Range(0, footstepSounds.Length)];
                 audioSource.PlayOneShot(clip);
 
-                // Faster footstep rate when running
                 footstepTimer = isRunning ? runStepInterval : walkStepInterval;
             }
         }
